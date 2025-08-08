@@ -5,7 +5,9 @@
 파이썬 개발환경
 ---
 python 3.12.7
+
 pyqt5 5.15.11
+
 google-api-core           2.25.1
 google-api-python-client  2.177.0
 google-auth               2.40.3
