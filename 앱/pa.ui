@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>980</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(173, 194, 169)</string>
+  </property>
+  <widget class="QPushButton" name="searchbutton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>탐색</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="date">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pabutton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>600</y>
+     <width>830</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>방송</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>831</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>잠시 후 {event}가 있을 예정이니 채널을 2다시1번으로  맞추어 주시기  바랍니다.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>지금부터 {event}가 시작됩니다. 모든 학생은 시청각실로 이동해주시기 바랍니다.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>이상으로 {event}가 모두 종료되었습니다. 감사합니다.</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>151</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <widget class="QRadioButton" name="templatebutton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>158</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>한컴 고딕</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>형식 선택</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="custombutton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>158</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>한컴 고딕</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>문구 직접입력</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>831</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletebutton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>530</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(153, 167, 153)</string>
+   </property>
+   <property name="text">
+    <string>모두 삭제</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>510</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>행사명이 들어갈 위치를 {event}로 표기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnbutton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>30</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>뒤로가기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitbutton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>780</y>
+     <width>150</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(153, 167, 153)</string>
+   </property>
+   <property name="text">
+    <string>종료</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settingbutton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>599</y>
+     <width>150</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>설정</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>151</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <widget class="QRadioButton" name="getevent">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>151</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>한컴 고딕</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>행사명 불러오기</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="writeevent">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>151</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>한컴 고딕</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>행사명 직접입력</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>831</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combobox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>831</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

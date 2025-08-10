@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>980</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(173, 194, 169)</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>1000</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cambria</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cambria'; font-size:24pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:28pt; color:#000000;&quot;&gt;2025 BOSS &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:28pt; color:#000000;&quot;&gt;AUTOMATIC BROADCASTING SYSTEM&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="to_PA">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>490</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>PA방송</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="to_Virtual">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>210</y>
+     <width>490</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>버튜버생성기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settingbutton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>780</y>
+     <width>491</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>설정</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitbutton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>780</y>
+     <width>491</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(153, 167, 153)</string>
+   </property>
+   <property name="text">
+    <string>종료</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

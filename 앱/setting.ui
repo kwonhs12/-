@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>980</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>한컴 고딕</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(173, 194, 169)</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;모델&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>170</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;속도(기본=1)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>100</y>
+     <width>170</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;피치(음높이) 기본=0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>100</y>
+     <width>170</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;볼륨 기본=0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>390</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;캐릭터&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="voiceselect">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>한국어(남성)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>한국어(여성)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSlider" name="ratebar">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>150</y>
+     <width>250</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+   <property name="minimum">
+    <number>25</number>
+   </property>
+   <property name="maximum">
+    <number>200</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="pitchbar">
+   <property name="geometry">
+    <rect>
+     <x>705</x>
+     <y>150</y>
+     <width>250</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="volumebar">
+   <property name="geometry">
+    <rect>
+     <x>405</x>
+     <y>150</y>
+     <width>250</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+   <property name="maximum">
+    <number>2000</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="characterselect">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>호랑이</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>개</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="charactershow">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>602</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 245, 237)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="buddy">
+    <cstring>charactershow</cstring>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetbutton">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>250</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(153, 167, 153)</string>
+   </property>
+   <property name="text">
+    <string>초기값</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnbutton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>840</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(153, 167, 153)</string>
+   </property>
+   <property name="text">
+    <string>돌아가기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="applybutton">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>290</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>한컴 고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>적용</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ratelabel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>100</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;1.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="volumelabel">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>100</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;0.00&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pitchlabel">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>100</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(211, 228, 205)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;0.00&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
